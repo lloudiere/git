@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav{
+    display: flex    ;
+    flex-direction: row;
+    width:100%;
+    margin-left: 10px;
+
+
+}
+.navbar {
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 40px;
+    padding: 0;
+    overflow: visible; /* Assurez-vous que ce n'est pas hidden */
+   
+}
+
+.nav-item {
+    float: left;
+    position: relative; /* Important pour le positionnement absolu du sous-menu */
+}
+
+.nav-item a {
+    display: block;
+    color: var(--cdiRouge);
+    font-size: 1.1em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: var(--cdiRouge);
+    color: rgb(240, 247, 241);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0; /* Aligne le sous-menu avec le bord gauche de l'élément parent */
+    top: 100%; /* Place le sous-menu juste en dessous de l'élément parent */
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; /* Assurez-vous que le sous-menu est au-dessus des autres éléments */
+}
+
+.dropdown-content li {
+    float: none;
+    list-style: none;
+}
+
+.dropdown-content li a {
+    color: var(--cdiRouge);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content li a:hover {
+    background-color: var(--cdiRouge);
+}
+
+.nav-item:hover .dropdown-content {
+    display: block;
+}
+.test{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.ll{
+    width: 30%;
+    color: #2a5e03;
+}
+.ll img{
+    background-color: #2a5e03;
+}
+    
+.test .compteur{ 
+    font-size: 4rem; 
+    text-align: center; 
+    text-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-weight: bold; 
+    color: #117d07; 
+}
+.compteur_ll{
+    display: flex
+;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
