@@ -96,7 +96,7 @@
                 </p>
             </div>
             <div class="photo">
-                <img src="_imgs/golf_2.jpg" alt="">
+                <img src="golf_2.jpg" alt="">
             </div>
         </div>
 
@@ -144,7 +144,7 @@
             <div class="actu_bloc">
                 <div class="actu_photo" 
                     style="background-image: 
-                        url('./_imgs/golf_3.jpg'); 
+                        url('golf_3.jpg'); 
                         background-size: cover; 
                         background-position: center; 
                         background-repeat: no-repeat;">
@@ -162,7 +162,7 @@
             <div class="actu_bloc">
             <div class="actu_photo" 
                     style="background-image: 
-                        url('./_imgs/golf_4.jpg'); 
+                        url('golf_4.jpg'); 
                         background-size: cover; 
                         background-position: center; 
                         background-repeat: no-repeat;">
@@ -179,7 +179,7 @@
             <div class="actu_bloc">
                 <div class="actu_photo" 
                     style="background-image: 
-                        url('./_imgs/golf_5.jpg'); 
+                        url('golf_5.jpg'); 
                         background-size: cover; 
                         background-position: center; 
                         background-repeat: no-repeat;">
@@ -233,11 +233,11 @@
             <p>Tél. 02 21 23 00 15</p>
         </div>
         <div class="reseau">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61555162867667"><i class="fa-brands fa-facebook"></i></a>
             
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/explore/locations/185425201799385/golf-de-la-cote-des-isles/"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/company/%C3%A9co-golf-services/?originalSubdomain=fr"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <div class="politique">
             <p>Politiques de confidentialité</p> 
