@@ -340,7 +340,7 @@ button:hover {
 /* Css pour la section parcours */
 
 .parcours{
-    background-image: url('./_imgs/golf_7.jpg');
+    background-image: url('../_imgs/golf_7.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;

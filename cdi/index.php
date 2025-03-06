@@ -116,7 +116,7 @@
                 <a href="#"><?php echo mb_strtoupper('Agenda')?></a>
             </div>
             <div class="bloc">
-                <i class="fa-regular fa-pen"></i>
+                <i class="fa-regular fa-user-pen"></i>
                 <a href="#"><?php echo mb_strtoupper('Inscriptions')?></a>
             </div>
             <div class="bloc">
