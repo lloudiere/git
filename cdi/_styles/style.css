@@ -69,7 +69,7 @@ body{
 
 body .entete{
 
-    background-image: url(../_imgs/golf_1.JPG);
+    background-image: url(../_imgs/golf_1.jpg);
     background-position: bottom right; /* Place l'image en bas à droite */
     background-repeat: no-repeat; /* Évite la répétition */
     background-size: cover; /* Garde la taille d'origine ou ajuste selon les besoins */
@@ -340,7 +340,7 @@ button:hover {
 /* Css pour la section parcours */
 
 .parcours{
-    background-image: url('../_imgs/golf_7.jpg');
+    background-image: url('./_imgs/golf_7.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;

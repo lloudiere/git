@@ -104,7 +104,7 @@
 
     </div>
     <button class="presentation_bouton"><?php echo mb_strtoupper('Découvrir le golf')?></button>
-    
+<!-- compétition -->
     <div class="bloc_competition">
         <h1>Compétitions de golf</h1>
 
@@ -116,7 +116,7 @@
                 <a href="#"><?php echo mb_strtoupper('Agenda')?></a>
             </div>
             <div class="bloc">
-                <i class="fa-regular fa-user-pen"></i>
+                <i class="fa-regular fa-pen"></i>
                 <a href="#"><?php echo mb_strtoupper('Inscriptions')?></a>
             </div>
             <div class="bloc">
