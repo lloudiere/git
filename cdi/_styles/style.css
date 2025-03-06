@@ -246,6 +246,7 @@ button:hover {
 .bloc .fa-solid,.fa-regular,.fa-light,.fa-thin{
     font-size: 3em;
     color: var(--cdiRouge);
+
 }
 .actu_titre span{
     border: 2px solid var(--cdiRouge);
@@ -384,7 +385,7 @@ button:hover {
     background-color: var(--cdiRouge);
     border: none;
 }
-
+/* CSS FOOTER */
 footer{
     background-color: rgb(243, 140, 80);
     display: flex;

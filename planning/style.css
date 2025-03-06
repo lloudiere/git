@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+canvas {
+    margin-top: 20px;
+
+}
+.liste_etape{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 30px;
+}
+
+.liste_event table thead{
+    background-color: blue;
+    color: yellow;
+
+
+}
+
+.liste_event table tbody tr:nth-child().tr:nth-child(5){
+    background-color: blue;
+    color: yellow;
+
+
+}
+
+
+body .graphique{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+    width: 100%;
+
+
+}
+.container-form{
+    display: flex
+    ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        align-content: center;
+        flex-wrap: nowrap;
+        font-size: 1.2em;
+        color: blueviolet;
+    
+}
+
+
+.container-form select,input,textarea{
+    font-size: 1.3em;
+    color: rgb(216, 9, 192);
+    border: 2px solid green,;
+    border-radius: 10px;
+
+
+
+}
+
+.container-form .bouton{
+    background-color: rgb(93, 0, 255);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.container h1{
+    width: 30%;
+    color: chocolate;
+
+}
+
+
+.green{
+    background-color: green;
+    color: white;
+}
+
+.black{
+    background-color: none;
+    color: black;
+
+}
+.orange{
+    background-color: orange;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: yellow;
+}
+footer .copyright{
+    width: 100%;
+    margin-top: 50px;
+}
+footer .copyright h2{
+    text-align: center;
+    color: rgb(201, 123, 68);
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.liste_event{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.liste_event_titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.ll_icone{
+    font-size: 2.3em;
+    color: rgb(70, 130, 8);
+
+
+    width: 62px;
+/* border: 1px solid; */
+/* -webkit-align-items: center; */
+    text-align: center;
+}
