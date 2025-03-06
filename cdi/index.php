@@ -204,16 +204,49 @@
 
 
     <div class="parcours">
-        <div class="parcours_photo"></div>
+        
         <div class="parcours_titre">
-            <h2>titre</h2>
-            <h3>soustitre</h3>
-            <div class="pargours_bouton">
-                <button>1</button>
-                <button>2</button>
+            <h1>Parcours du golf 18 trous</h1>
+            <div class="parcours_texte">
+                <h3>A seulement 20 min de Cherbourg, le Golf Côte des Isles et son environnement fabuleux </h3>
+                <h3>et apaisant proposent un parcours de 18 trous au sein d’un environnement naturel préservé.</h3>
+            </div>
+            <div class="parours_bouton_bloc">
+                <button class="parcours_bouton">PLAN DU PARCOURS</button>
+                <button class="parcours_bouton">RÉSERVATION VISITEURS</button>
             </div>
         </div>
     </div>
+
+
+
+    <footer>
+        <div class="logo">
+            <h2>Golf Côtes des Isles</h2>
+        </div>
+        <div class="adresse">
+            <p>39 chemin de Coutances</p>
+            <p>50270 SAINT-JEAN-DE-LA-RIVIERE</p>
+            
+        </div>
+        <div class="telephone">
+            <p>Tél. 02 21 23 00 15</p>
+        </div>
+        <div class="reseau">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="politique">
+            <p>Politiques de confidentialité</p> 
+        </div>
+        <span class="trait"></span>
+        <div class="mentions">
+            <p>Mentions légales</p>
+        </div>
+    </footer>
 </body>
     <script src="_scripts/menu.js"></script>
 </html>
