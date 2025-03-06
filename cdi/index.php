@@ -96,7 +96,7 @@
                 </p>
             </div>
             <div class="photo">
-                <img src="golf_2.jpg" alt="">
+                <img src="./golf_2.jpg" alt="">
             </div>
         </div>
 
@@ -144,7 +144,7 @@
             <div class="actu_bloc">
                 <div class="actu_photo" 
                     style="background-image: 
-                        url('golf_3.jpg'); 
+                        url('./golf_3.jpg'); 
                         background-size: cover; 
                         background-position: center; 
                         background-repeat: no-repeat;">
@@ -162,7 +162,7 @@
             <div class="actu_bloc">
             <div class="actu_photo" 
                     style="background-image: 
-                        url('golf_4.jpg'); 
+                        url('./golf_4.jpg'); 
                         background-size: cover; 
                         background-position: center; 
                         background-repeat: no-repeat;">
@@ -179,7 +179,7 @@
             <div class="actu_bloc">
                 <div class="actu_photo" 
                     style="background-image: 
-                        url('golf_5.jpg'); 
+                        url('./golf_5.jpg'); 
                         background-size: cover; 
                         background-position: center; 
                         background-repeat: no-repeat;">
