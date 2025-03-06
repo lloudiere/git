@@ -27,6 +27,7 @@
 
 </head>
 <body>
+<!-- head_cdi -->
     <div class="head_cdi">
         <div class="head_cdi_logo">
             <img src="_imgs/CDI250.png" alt="">
@@ -35,6 +36,7 @@
                 <h3>Barnevile-Carteret</h3>
             </div>
         </div>
+<!-- nav -->
         <nav>
             <ul class="navbar">
                 <?php foreach ($navItems as $item): ?>
@@ -53,8 +55,7 @@
             <!-- <div class="trait"></div> -->
         </nav>
        
-            
-        
+ <!-- Burger -->
         <div class="burger flexCol spaceCenter">
             <label class="hamburger-menu">
                 <input type="checkbox">
@@ -75,7 +76,7 @@
             </aside>
         </div>
     </div>
-
+<!-- Entete -->
     <div class="entete">
      
         <h2>GOLF COTE DES ISLES</h2>
@@ -85,7 +86,7 @@
         </div>
     </div>
 
-
+<!-- Présentation -->
     <div class="presentation">
 
         <H1>Pratique du golf dans un cadre verdoyant sur le site en face des Isles</H1>
@@ -131,7 +132,7 @@
         </div>
     </div>
 
-
+<!-- Actu -->
 
     <div class="actu">
         <div class="actu_titre">
@@ -201,7 +202,7 @@
 
     </div>
 
-
+<!-- parcours -->
 
     <div class="parcours">
         
@@ -219,7 +220,7 @@
     </div>
 
 
-
+<!-- Footer -->
     <footer>
         <div class="logo">
             <h2>Golf Côtes des Isles</h2>
