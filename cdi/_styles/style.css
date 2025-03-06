@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+  --cdiRouge:#7D0B01;
+
+}
+body{
+    color: var(--cdiRouge);
+    width: 100vw;
+}
+.head_cdi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+    gap: 10px;
+
+}
+.head_cdi_logo{
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+
+}
+.head_cdi_logo img{
+    width: 150px;
+
+}
+.head_cdi_logo .titre_cdi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 100%;
+
+}
+.head_cdi_logo h2{
+    color: var(--cdiRouge);
+    font-family: 'roboto',sans-serif ;
+    font-size: xx-large;
+    text-align: right;
+    
+
+}
+
+.head_cdi_logo h3{
+    color: var(--cdiRouge);
+    font-family: 'roboto',sans-serif ;
+    font-size: large;
+    text-align: right;
+
+
+}
+
+
+
+body .entete{
+
+    background-image: url(../_imgs/golf_1.JPG);
+    background-position: bottom right; /* Place l'image en bas à droite */
+    background-repeat: no-repeat; /* Évite la répétition */
+    background-size: cover; /* Garde la taille d'origine ou ajuste selon les besoins */
+    
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 693px;
+    background-color: antiquewhite;
+    margin-bottom: 97px;
+    gap: 20px;
+    padding-bottom: 50px;
+
+
+}
+.entete h2{
+    color: white;
+}
+body .entete h3{
+    color: white;
+}
+.entete_texte{
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.trait{
+    border: 2px solid var(--cdiRouge);
+    width: 2px;
+    height: auto;
+
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+    width: 100%;
+
+}
+.presentation h1{
+    width: 50%;
+    text-align: center;
+}
+
+.description_photo{
+    display: flex
+;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.description p{
+    width: 80%;
+    padding: 50px;
+
+}
+.description{
+    width: 50%;
+}
+.description p{
+    font-size: 1.4em;
+}
+.description_photo .photo{
+    width: 450px;
+    height: auto;
+
+   
+
+}
+.description_photo .photo img{
+    border-radius: 140px 140px 140px 140px;
+    width: 347px;
+    height: 62vh;
+    margin: 52px;
+
+}
+
+.presentation_bouton {
+    width: 200px;
+    height: 40px;
+
+    border: 1px solid var(--cdiRouge);
+    color: var(--cdiRouge);
+    background-color: transparent;
+    align-self: left;
+    justify-content: left;
+    margin-left: 160px;
+}
+
+.bloc_competition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 400px;
+    gap: 50px;
+}
+.bloc_competition .bloc_image{
+    background-image: url('../_imgs/golf_3.JPG');
+    background-size: cover;
+    background-position: center center; /* Place l'image en bas à droite */
+    background-repeat: no-repeat; /* Évite la répétition */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:  800px;
+    height: 200px;
+    background-color: blueviolet
+    ;
+    
+
+}
+
+.bloc_competition .bloc_image .bloc{
+
+    width: 100%;
+    border: 2px solid var(--cdiRouge);
+    height: 100%;
+    background-color: white;
+    display: flex
+;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bloc_competition .bloc_image a{
+    color: var(--cdiRouge);
+    font-weight: bold;
+}
+
+.bloc_competition .bloc_image .bloc:hover{
+    background-color: transparent;
+    color: white;
+    a{
+        background-color: transparent;
+        color: white;
+       
+    }
+    img{
+       filter:invert(100%);
+   
+    }
+    }
+}
+
+
+
