@@ -248,6 +248,10 @@
             <p>Mentions légales</p>
         </div>
     </footer>
+
+
+test
+
 </body>
     <script src="_scripts/menu.js"></script>
     <!-- v06mars -->
