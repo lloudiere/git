@@ -24,6 +24,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+
     width: 100%;
     margin: 30px;
     gap: 10px;
@@ -32,7 +34,7 @@ body{
 .head_cdi_logo{
     display: flex;
     flex-direction: row;
-    width: 620px;
+    width: 50%;
 
 }
 .head_cdi_logo img{
@@ -236,7 +238,10 @@ body .entete h3{
         color: white;
     }
 }
+.burger{
+    position: relative;
 
+}
 button:hover {
 
     border: 1px solid var(--cdiRouge);

@@ -20,9 +20,10 @@
     <link rel="stylesheet" href="_styles/style.css">
     <link rel="stylesheet" href="_styles/menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="_styles/responsive.css">
+   
     <link rel="stylesheet" href="_styles/burger.css">
     <link rel="stylesheet" href="_styles/generic.css">
+    <link rel="stylesheet" href="_styles/responsive.css">
 
 
 </head>
@@ -148,7 +149,8 @@
                         url('./_imgs/golf_3.jpg'); 
                         background-size: cover; 
                         background-position: center; 
-                        background-repeat: no-repeat;">
+                        background-repeat: no-repeat;
+                        z-index: -1;">
                         <button class="actu_bouton"><?php echo mb_strtoupper('Information')?></button>
     
                 </div>
@@ -166,7 +168,8 @@
                         url('./_imgs/golf_4.jpg'); 
                         background-size: cover; 
                         background-position: center; 
-                        background-repeat: no-repeat;">
+                        background-repeat: no-repeat;
+                        z-index: -1;">
                         <button class="actu_bouton"><?php echo mb_strtoupper('Information')?></button>
     
                 </div>
@@ -183,7 +186,8 @@
                         url('./_imgs/golf_5.jpg'); 
                         background-size: cover; 
                         background-position: center; 
-                        background-repeat: no-repeat;">
+                        background-repeat: no-repeat;
+                        z-index: -1;">
                         <button class="actu_bouton"><?php echo mb_strtoupper('Information')?></button>
     
                 </div>
@@ -212,7 +216,7 @@
                 <h3>A seulement 20 min de Cherbourg, le Golf Côte des Isles et son environnement fabuleux </h3>
                 <h3>et apaisant proposent un parcours de 18 trous au sein d’un environnement naturel préservé.</h3>
             </div>
-            <div class="parours_bouton_bloc">
+            <div class="parcours_bouton_bloc">
                 <button class="parcours_bouton">PLAN DU PARCOURS</button>
                 <button class="parcours_bouton">RÉSERVATION VISITEURS</button>
             </div>
@@ -253,6 +257,6 @@
 
 
 </body>
-    <script src="_scripts/menu.js"></script>
+    <!--<script src="_scripts/menu.js"></script>-->
     <!-- v06mars -->
 </html>

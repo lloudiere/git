@@ -18,7 +18,7 @@
     gap: var(--hamburger-gap);
     width: max-content;
     position: absolute;
-    right: 40px;
+    right: -90%;
     z-index: 15;
     cursor: pointer;
     top: 109px;
