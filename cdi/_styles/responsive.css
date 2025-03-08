@@ -181,6 +181,8 @@
         border: 1px solid var(--cdiRouge);
         color: var(--cdiRouge);
         background-color: transparent;
+        align-content: center;
+        justify-content: center;
         align-items: center;
 
 
