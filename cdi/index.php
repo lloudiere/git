@@ -1,7 +1,7 @@
 <?php
-    // /include'db.php';
-
-    require_once '_menuvar.php'
+    include'db.php';
+    require_once '_chargemenuvar.php';
+   // require_once '_menuvar.php';
 
 
 
