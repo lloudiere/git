@@ -1,4 +1,5 @@
 <?php
+
 // Liste des configurations possibles (Windows Wamp et MacOS MAMP)
     $configs = [
         'mamp' => [

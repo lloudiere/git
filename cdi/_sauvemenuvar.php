@@ -1,6 +1,6 @@
 <?php 
     include './db.php';
-    include './_menuvar.php';
+    //include './_menuvar.php';
     
     //enregistre le tableau $navItem dans 2 table nav et sous_nav
     

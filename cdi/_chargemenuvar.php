@@ -30,8 +30,7 @@
             "submenu" => $subMenuItems // Associer les sous-menus ici
         ];
     }
-        
-
+    
 
 
     // $navItems = [

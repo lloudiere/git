@@ -71,5 +71,7 @@
 
         ]
     ];
+include '_sauvemenuvar.php';
+include '_sauvesql.php';`
 
 ?>
