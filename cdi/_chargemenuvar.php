@@ -1,6 +1,6 @@
 <?php 
     include 'db.php';
-    $nav=$db->prepare('SELECT * FROM nav');
+    $nav=$db->prepare('SELECT * FROM nav WHERE nav_actif=1');
     $nav->execute();
 
 
@@ -10,7 +10,7 @@
         $idNav = $N->id_nav;
     
         // Préparer la requête pour récupérer les sous-menus
-        $sousNav = $db->prepare('SELECT * FROM sous_nav WHERE id_nav = ?');
+        $sousNav = $db->prepare('SELECT * FROM sous_nav WHERE id_nav = ? AND sn_actif=1');
         $sousNav->execute([$idNav]);
         
         // Créer un tableau pour les sous-menus

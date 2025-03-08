@@ -5,13 +5,13 @@
             'host' => 'localhost',
             'user' => 'root',
             'pass' => 'root',
-            'dbname' => 'planning'
+            'dbname' => 'menu'
         ],
         'wamp' => [
             'host' => 'localhost',
             'user' => 'root',
             'pass' => '',
-            'dbname' => 'planning'
+            'dbname' => 'menu'
         ]
     ];
 
