@@ -1,0 +1,245 @@
+
+@import url('<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    A{
+        text-decoration:none;
+        color: white;
+    }
+}
+
+:root{
+    --rouge: rgb(247, 16, 16);
+    --blanc: white;
+    --beige: rgb(230, 230, 151);
+    --noir: rgb(5, 0, 0);
+
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    width:100vw;
+    background-color: var(--noir);
+    color: var(--blanc);
+}
+header{
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+}
+header nav{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    a{
+        list-style-type: none;
+   
+
+
+    }
+    a:hover{
+        color:var(--rouge);
+    }
+
+
+}
+
+footer{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.copyright {
+    width:100%;
+    p{
+
+        text-align: right;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+}
+
+footer .liste{
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        list-style-type: none;
+    }
+    a:hover{
+        color:var(--rouge);
+    }
+    
+
+}
+.presentation{
+    background-color: var(--blanc);
+    color: var(--noir);
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 800px;
+
+}
+.presentation .photographe{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+    justify-content: center;
+    align-items: center;
+    h1{
+        letter-spacing: 0.03em;
+    }
+    h3{
+        text-align: center;
+        letter-spacing: 0.37em;
+        color: var(--rouge);
+        font-size: 1.8em;
+    }
+
+}
+.info_nom{
+    height: 100px;
+    margin-top: 208px;
+}
+.photo_carrousel{
+
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 700px;
+    overflow: hidden;
+    display: flex;
+    * {
+        flex: 0 0 100%;
+      }
+         &:hover .group {
+      animation-play-state: paused;
+
+        }
+}
+.photo_carrousel img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+
+.group {
+    display: flex;
+    gap: 0px;
+    /* Ajoutez un padding à droite pour créer un espace entre la dernière et la première carte. */
+    padding-right: 0px;
+  
+     will-change: transform; /* Nous devons être sympas avec le navigateur - lui indiquer ce que nous allons animer. */
+    /* //animation-delay: 2s;
+     //animation: slide 10s linear infinite; */
+     animation: slide 1s forwards infinite;
+     
+     animation: slide 10s ease-in-out infinite;
+    }
+
+@keyframes slide {
+    0%, 20% { transform: translateX(0); }  /* Affichage de la 1ère image avec pause */
+    25%, 45% { transform: translateX(-100%); } /* 2ème image + pause */
+    50%, 70% { transform: translateX(-200%); } /* 3ème image + pause */
+    75%, 95% { transform: translateX(-300%); } /* 4ème image + pause */
+    100% { transform: translateX(0); } /* Retour à la 1ère image */
+  
+    }
+
+.card {
+    width: 100%;
+    color: white;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 10%) 5px 5px 20px 0;
+    padding: 0px;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    &:nth-child(1) {
+      background: #fafafc;
+    }
+
+    &:nth-child(2) {
+      background: #f5f5f6;
+    }
+
+    &:nth-child(3) {
+      background: #f2f1f4;
+    }
+  }
+
+
+
+
+  .galerie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+        
+  }
+
+  .galerie .ligne{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    
+  }
+
+  .galerie .ligne .photo{
+    width: 180x;
+    height: 180px;
+    padding: 5px;
+    img{
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        filter: grayscale(1);
+    };
+  }
+  .galerie .ligne .photo_art{
+    width: 180x;
+    height: 180px;
+    padding: 5px;
+    img{
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        filter: grayscale(0);
+    };
+  }
