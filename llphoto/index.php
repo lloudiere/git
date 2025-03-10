@@ -32,7 +32,7 @@
             </div>
             <div class="group">
                 <div aria-hidden class="card">
-                    <img src="./_imgs/homme.jpg" alt="">
+                    <img src="./_imgs/mariage.jpg" alt="">
                 </div>
                 <div aria-hidden class="card">
                     <img src="./_imgs/pieds.jpg" alt="">

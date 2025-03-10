@@ -44,7 +44,8 @@
                                 $c++
                                 ?>
                                 <div class="photo_art">
-                                <img src="./_imgs/art/<?php echo $galerie[$c]?>" alt="">
+                                    <a href="view.php?view=../llphoto/_imgs/art/<?php echo $galerie[$c]?>&page=art.php"> <img src="./_imgs/art/<?php echo $galerie[$c]?>" alt=""></a>
+                               
                                 </div>
                             <?php
                             }

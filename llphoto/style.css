@@ -153,7 +153,7 @@ footer .liste{
 }
 
 
-
+/* animation accueil */
 .group {
     display: flex;
     gap: 0px;
@@ -249,7 +249,7 @@ footer .liste{
     };
   }
 
-
+/* page formulaire */
   .formulaire{
     display: flex;
     flex-direction: column;
@@ -336,6 +336,8 @@ footer .liste{
     color: var(--rouge);
 
 }
+
+/* page a propos */
 .apropos{
     display: flex;
     flex-direction: row;
@@ -361,3 +363,10 @@ footer .liste{
     margin-top: 20px;
     padding: 20px;
 }
+/* page view uniquement */
+.apropos .view_photo img{
+    max-width: 100wv;
+    max-height: 100vh;
+    object-fit: cover;
+    filter: grayscale(0);
+};

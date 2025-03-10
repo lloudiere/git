@@ -24,8 +24,8 @@
             </div>
             <div class="apropos_group">
                 <h3>MON HISTOIRE</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, cumque commodi voluptatem magni explicabo ex molestias quidem inventore consectetur, at non deserunt, natus aliquid iure ipsam! Inventore velit dolores rerum?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, cumque commodi voluptatem magni explicabo ex molestias quidem inventore consectetur, at non deserunt, natus aliquid iure ipsam! Inventore velit dolores rerum?</p>
+                <p>Spécialisé dans les portraits et la photographie macro, Ludovic Loudière capture la beauté et l'émotion avec une précision remarquable. Son portfolio varié, disponible sur son site web, témoigne de sa capacité à immortaliser des moments précieux et des détails souvent négligés.</p>
+                <p>Ses œuvres, saluées par ses clients, révèlent une sensibilité artistique et un œil aiguisé pour la composition. Découvrez ses créations et réservez une séance pour vivre une expérience photographique unique avec un artiste passionné.</p>
                  
             </div>
         </div>

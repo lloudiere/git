@@ -13,7 +13,7 @@
                     <h3 class="rouge">PHOTOGRAPHE</h3>
                 </div>
                 <div class="info_nom">
-                    <H4>A PROPOS</H4>
+                    <H4>Bientôt le blog</H4>
                 </div>
         </div>
 
