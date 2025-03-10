@@ -1,82 +1,14 @@
 <?php
-    include'db.php';
-    require_once '_chargemenuvar.php';
-   // require_once '_menuvar.php';
 
-
+    require_once './_blocs/_general_cdi.php'
 
 ?>
 
-
-
-
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golf Côte de Isles</title>
-    <link rel="stylesheet" href="_styles/style.css">
-    <link rel="stylesheet" href="_styles/menu.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-   
-    <link rel="stylesheet" href="_styles/burger.css">
-    <link rel="stylesheet" href="_styles/generic.css">
-    <link rel="stylesheet" href="_styles/responsive.css">
-
-
-</head>
-<body>
 <!-- head_cdi -->
-    <div class="head_cdi">
-        <div class="head_cdi_logo">
-            <img src="_imgs/CDI250.png" alt="">
-            <div class="titre_cdi">
-                <h2>Côte des Isles</h2>
-                <h3>Barnevile-Carteret</h3>
-            </div>
-        </div>
-<!-- nav -->
-        <nav>
-            <ul class="navbar">
-                <?php foreach ($navItems as $item): ?>
-                    <li class="nav-item <?php echo isset($item['submenu']) ? 'dropdown' : ''; ?>">
-                        <a href="<?php echo $item['url']; ?>"><?php echo mb_strtoupper($item['title']); ?></a>
-                        <?php if (isset($item['submenu'])): ?>
-                            <ul class="dropdown-content">
-                                <?php foreach ($item['submenu'] as $subItem): ?>
-                                    <li><a href="<?php echo $subItem['url']; ?>"><?php echo $subItem['title']; ?></a></li>
-                                <?php endforeach; ?>
-                            </ul>
-                        <?php endif; ?>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
-            <!-- <div class="trait"></div> -->
-        </nav>
-       
- <!-- Burger -->
-        <div class="burger flexCol spaceCenter">
-            <label class="hamburger-menu">
-                <input type="checkbox">
-            </label>
-            <aside class="sidebar">
-                
-                    <div class="flexCol">
-                        <?php foreach ($navItems as $item): ?>
-                            <?php if($item['title']<>"|"){ ?>
-                            <a href="<?php echo $item['url']; ?>"><?php echo mb_strtoupper($item['title']); ?></a>
-                            <?php }else{?>
-                                <a href="<?php echo $item['url']; ?>"><?php echo '___________'; ?></a>
-                                <?php }?>
-                        <?php endforeach; ?>
-                    
-                     </div> 
-                
-            </aside>
-        </div>
-    </div>
+    <?php
+        include './_blocs/_head_cdi.php'
+    ?>
+
 <!-- Entete -->
     <div class="entete">
      
@@ -222,41 +154,14 @@
             </div>
         </div>
     </div>
-
-
-<!-- Footer -->
-    <footer>
-        <div class="logo">
-            <h2>Golf Côtes des Isles</h2>
-        </div>
-        <div class="adresse">
-            <p>39 chemin de Coutances</p>
-            <p>50270 SAINT-JEAN-DE-LA-RIVIERE</p>
-            
-        </div>
-        <div class="telephone">
-            <p>Tél. 02 21 23 00 15</p>
-        </div>
-        <div class="reseau">
-            <a href="https://www.facebook.com/profile.php?id=61555162867667"><i class="fa-brands fa-facebook"></i></a>
-            
-            <a href="https://www.instagram.com/explore/locations/185425201799385/golf-de-la-cote-des-isles/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="https://www.linkedin.com/company/%C3%A9co-golf-services/?originalSubdomain=fr"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-        <div class="politique">
-            <p>Politiques de confidentialité</p> 
-        </div>
-        <span class="trait"></span>
-        <div class="mentions">
-            <p>Mentions légales</p>
-        </div>
-    </footer>
+<!-- footer  -->
+    <?php 
+        include './_blocs/_footer_cdi.php'
+    ?>
 
 
 
 
-</body>
-    <!--<script src="_scripts/menu.js"></script>-->
-    <!-- v06mars -->
-</html>
+
+
+

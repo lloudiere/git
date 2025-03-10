@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 -- Structure de la table `nav`
 --
 
+DROP TABLE `nav`;
+
 CREATE TABLE `nav` (
   `id_nav` int NOT NULL,
   `nav_titre` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
@@ -53,7 +55,7 @@ INSERT INTO `nav` (`id_nav`, `nav_titre`, `nav_url`, `nav_actif`) VALUES
 --
 -- Structure de la table `sous_nav`
 --
-
+DROP TABLE `sous_nav` ;
 CREATE TABLE `sous_nav` (
   `id_sous_nav` int NOT NULL,
   `sn_titre` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,

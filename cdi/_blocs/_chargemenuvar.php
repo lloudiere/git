@@ -1,5 +1,5 @@
 <?php 
-    include 'db.php';
+ 
     $nav=$db->prepare('SELECT * FROM nav WHERE nav_actif=1');
     $nav->execute();
 

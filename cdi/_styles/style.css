@@ -12,9 +12,18 @@
 :root{
   --cdiRouge:#7D0B01;
   --cdiMarron:#f3be78;
+  --cdiNoir:black;
+  --cdiBlanc:white;
+  .cdiRouge{color: var(--cdiRouge);};
+  .cdiMarron{color: var(--cdiMarron);};
+  .cdiNoir{color: var(--cdiNoir);};
+  .cdiBlanc{color: var(--cdiBlanc);}
 
 
 }
+
+
+
 body{
     color: var(--cdiRouge);
     width: 100vw;
@@ -68,7 +77,6 @@ body{
 }
 
 
-
 body .entete{
 
     background-image: url(../_imgs/golf_1.jpg);
@@ -91,7 +99,7 @@ body .entete{
 
 
 }
-.entete h2{
+body .entete h2{
     color: white;
 }
 body .entete h3{
@@ -433,4 +441,132 @@ footer .reseau {
 }
 footer .reseau .fa-brands:hover, .politique:hover ,.mentions:hover{
     color: white;
+}
+
+
+
+
+/* Style contact */
+
+
+body .entete_contact{
+
+    background-image: url(../_imgs/golf_1.jpg);
+    background-position: bottom right; /* Place l'image en bas à droite */
+    background-repeat: no-repeat; /* Évite la répétition */
+    background-size: cover; /* Garde la taille d'origine ou ajuste selon les besoins */
+    
+   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 693px;
+    background-color: antiquewhite;
+    margin-bottom: 97px;
+    gap: 20px;
+    padding-bottom: 50px;
+
+
+}
+body .entete_contact h2{
+    color: white;
+}
+body .entete_contact h3{
+    color: white;
+}
+.entete_contact_texte{
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+body .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 700px;
+    margin: 100px;
+    gap: 5px;
+    font-weight:400;
+    font-size: 1.2em;
+}
+
+body .contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    gap: 37px;
+
+}
+
+body .contact_form .contact_formulaire{
+    display: flex
+    ;
+        justify-content: space-between;
+        width: 600px;
+        align-items: flex-start;
+        align-content: space-around;
+        flex-direction: column;
+}
+
+
+body .contact_form .contact_formulaire .form_saisie{
+    display: flex
+    ;
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-start;
+        align-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+}
+
+body .contact_form .contact_formulaire .form_saisie .adresse{
+    display: flex
+    ;
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-start;
+        align-content: space-around;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+
+        input{
+            width: 100%;
+            height: 50px;
+            border: 2px solid var(--cdiNoir);
+            
+        }
+
+
+
+
+
+
+}
+body .contact_form .contact_formulaire .form_saisie label{
+    margin-top: 5px;
+}
+
+body .contact_form .contact_formulaire .form_saisie textarea{
+    width: 100%;
+    margin-top: 5px;
+    padding: 50px;
+  
+    font-size: 1.2em;
+
 }
