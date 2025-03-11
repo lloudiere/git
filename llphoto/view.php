@@ -30,7 +30,7 @@
                             
                             ?>
                             <div class="precedent">
-                                <a href="view.php?page=<?php echo $retour?>.php&id=<?php echo $imagePrecedente?>"><i class="fa-solid fa-square-caret-left"></i></a>
+                                <a href="view.php?page=<?php echo $retour?>&id=<?php echo $imagePrecedente?>"><i class="fa-solid fa-square-caret-left"></i></a>
                             </div>
                             <?php
 
@@ -42,7 +42,7 @@
                         
                             ?>
                             <div class="suivant">
-                                <a href="view.php?page=<?php echo $retour?>.php&id=<?php echo $imageSuivante?>"><i class="fa-solid fa-square-caret-right"></i></a>
+                                <a href="view.php?page=<?php echo $retour?>&id=<?php echo $imageSuivante?>"><i class="fa-solid fa-square-caret-right"></i></a>
                             </div>
                             <?php
                         };
@@ -52,7 +52,7 @@
 
             <div class="view_photo">
 
-                <a href="<?php echo $page?>"> <img src="<?php echo $directory.$galerie[$id]?>" alt=""></a>
+                <a href="<?php echo $retour?>"> <img src="<?php echo $directory.$galerie[$id]?>" alt=""></a>
                
              </div>
      
