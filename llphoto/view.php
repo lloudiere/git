@@ -42,7 +42,7 @@
                         
                             ?>
                             <div class="suivant">
-                                <a href="view.php?page=<?php echo $retour?>&id=<?php echo $imageSuivante?>"><i class="fa-solid fa-square-caret-right"></i></a>
+                                <a href="view.php?page=<?php echo $retour?>.php&id=<?php echo $imageSuivante?>"><i class="fa-solid fa-square-caret-right"></i></a>
                             </div>
                             <?php
                         };
