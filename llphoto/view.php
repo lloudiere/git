@@ -30,7 +30,7 @@
                             
                             ?>
                             <div class="precedent">
-                                <a href="view.php?page=<?php echo $retour?>&id=<?php echo $imagePrecedente?>"><i class="fa-solid fa-square-caret-left"></i></a>
+                                <a href="view.php?page=<?php echo $retour?>.php&id=<?php echo $imagePrecedente?>"><i class="fa-solid fa-square-caret-left"></i></a>
                             </div>
                             <?php
 
