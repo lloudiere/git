@@ -43,10 +43,17 @@
                             for ($i = 1; $i <= 4; $i++) {
                                 $c++
                                 ?>
-                                <div class="photo">
-                                    <a href="view.php?view=../llphoto/_imgs/portrait/<?php echo $galerie[$c]?>&page=portrait.php"> <img src="./_imgs/portrait/<?php echo $galerie[$c]?>" alt=""></a>
-                               
-                                </div>
+                                <?php
+                                   
+                                    if(isset($galerie[$c])){ ?>
+                                        <div class="photo">
+                                            <a href="view.php?page=portrait.php&id=<?php echo $c?>"> <img src="./_imgs/portrait/<?php echo $galerie[$c]?>" alt=""></a>
+                                    
+                                        </div>
+                                    <?php 
+                                    } 
+                                ?>
+
                             <?php
                             }
                             ?>

@@ -43,13 +43,20 @@
                             for ($i = 1; $i <= 4; $i++) {
                                 $c++
                                 ?>
-                                <div class="photo">
-                                    <a href="view.php?view=../llphoto/_imgs/mariage/<?php echo $galerie[$c]?>&page=mariage.php"> <img src="./_imgs/mariage/<?php echo $galerie[$c]?>" alt=""></a>
-                               
-                                </div>
-                            <?php
-                            }
-                            ?>
+                                <?php
+                                   
+                                   if(isset($galerie[$c])){ ?>
+                                       <div class="photo">
+                                           <a href="view.php?page=mariage.php&id=<?php echo $c?>"> <img src="./_imgs/mariage/<?php echo $galerie[$c]?>" alt=""></a>
+                                   
+                                       </div>
+                                   <?php 
+                                   } 
+                               ?>
+
+                           <?php
+                           }
+                           ?>
                         </div>
                         <?php
                     }
