@@ -39,17 +39,24 @@
                     for ($x = 1; $x <= 4; $x++) {
                         ?>
                         <div class="ligne">
-                            <?php
+                        <?php
                             for ($i = 1; $i <= 4; $i++) {
                                 $c++
                                 ?>
-                                <div class="photo_art">
-                                    <a href="view.php?view=../llphoto/_imgs/art/<?php echo $galerie[$c]?>&page=art.php"> <img src="./_imgs/art/<?php echo $galerie[$c]?>" alt=""></a>
-                               
-                                </div>
-                            <?php
-                            }
-                            ?>
+                                <?php
+                                   
+                                   if(isset($galerie[$c])){ ?>
+                                       <div class="photo_art">
+                                           <a href="view.php?page=art.php&id=<?php echo $c?>"> <img src="./_imgs/art/<?php echo $galerie[$c]?>" alt=""></a>
+                                   
+                                       </div>
+                                   <?php 
+                                   } 
+                               ?>
+
+                           <?php
+                           }
+                           ?>
                         </div>
                         <?php
                     }

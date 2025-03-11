@@ -3,41 +3,61 @@
     require './_bloc/entete.php';
     require './_bloc/header.php';
 
-    if(isset($_GET['view'])){
-        if($_GET['view']!=""){
-            $image=$_GET['view'];
-            $page=$_GET['page'];
-        }
-    }
+    require './_bloc/chargePageView.php';
+
+
+    
+
+   
+    
+
 
 ?>
     
     <div class="presentation">
-        <div class="photographe">
-                <div class="nom">
-                    <h1>LUDOVIC LOUDIERE</h1>
-                    <h3 class="rouge">PHOTOGRAPHE</h3>
-                </div>
-                <div class="info_nom">
-                    <H4>Photo --></H4>
-                </div>
-        </div>
 
+        <?php 
+            require './_bloc/viewPhotographe.php';
+          
+        ?>
+        <div class="view_apropos">
+            <div class="view_bouton">
+                
+                <?php 
+                        
+                        if($id>=1){
+                            $imagePrecedente=$id-1;
+                            
+                            ?>
+                            <div class="precedent">
+                                <a href="view.php?page=<?php echo $retour?>&id=<?php echo $imagePrecedente?>"><i class="fa-solid fa-square-caret-left"></i></a>
+                            </div>
+                            <?php
 
-        <div class="apropos">
-            
+                        }?>
+
+                    <?php 
+                        if($id<$maxi){
+                            $imageSuivante=$id+1;
+                        
+                            ?>
+                            <div class="suivant">
+                                <a href="view.php?page=<?php echo $retour?>&id=<?php echo $imageSuivante?>"><i class="fa-solid fa-square-caret-right"></i></a>
+                            </div>
+                            <?php
+                        };
+                    ?>
+                    
+            </div>
+
             <div class="view_photo">
-                <a href="<?php echo $page?>"> <img src="<?php echo $image?>" alt=""></a>
+
+                <a href="<?php echo $page?>"> <img src="<?php echo $directory.$galerie[$id]?>" alt=""></a>
                
              </div>
      
            
-            <!-- <div class="apropos_group">
-                <h3>MON HISTOIRE</h3>
-                <p>Spécialisé dans les portraits et la photographie macro, Ludovic Loudière capture la beauté et l'émotion avec une précision remarquable. Son portfolio varié, disponible sur son site web, témoigne de sa capacité à immortaliser des moments précieux et des détails souvent négligés.</p>
-                <p>Ses œuvres, saluées par ses clients, révèlent une sensibilité artistique et un œil aiguisé pour la composition. Découvrez ses créations et réservez une séance pour vivre une expérience photographique unique avec un artiste passionné.</p>
-                 
-            </div> -->
+
         </div>
     </div>
 
