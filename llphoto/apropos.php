@@ -23,8 +23,10 @@
                <img src="./_imgs/bibi2.jpg" alt="">
             </div>
             <div class="apropos_group">
-                <h3>MON HISTOIRE</h3>
-                <p>Spécialisé dans les portraits et la photographie macro, Ludovic Loudière capture la beauté et l'émotion avec une précision remarquable. Son portfolio varié, disponible sur son site web, témoigne de sa capacité à immortaliser des moments précieux et des détails souvent négligés.</p>
+                
+                <h3>SON HISTOIRE</h3>
+            
+                <p>Spécialisé dans les portraits et la photographie macro, <strong class="rouge">Ludovic Loudière</strong> capture la beauté et l'émotion avec une précision remarquable. Son portfolio varié, disponible sur son site web, témoigne de sa capacité à immortaliser des moments précieux et des détails souvent négligés.</p>
                 <p>Ses œuvres, saluées par ses clients, révèlent une sensibilité artistique et un œil aiguisé pour la composition. Découvrez ses créations et réservez une séance pour vivre une expérience photographique unique avec un artiste passionné.</p>
                  
             </div>

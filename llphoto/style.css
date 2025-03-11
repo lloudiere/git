@@ -71,7 +71,7 @@ body .view_bouton{
 
 header{
     margin: 10px;
-
+    width: 100%;;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -79,6 +79,8 @@ header{
 
 }
 header nav{
+    margin-left:  40px;
+
     gap: 20px;
     display: flex;
     flex-direction: row;
@@ -110,10 +112,13 @@ footer{
 
 .copyright {
     width:100%;
+    margin-right: 66px;
+
+
     p{
 
         text-align: right;
-        margin-right: 20px;
+    
         margin-top: 10px;
     }
 }
@@ -121,8 +126,10 @@ footer{
 footer .liste{
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 40px;
+    margin-right: 41px;
     gap: 20px;
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -388,6 +395,7 @@ footer .liste{
     align-items: self-start;
     width: 100%;
     height: 100%;
+    margin-left: 50px;
 
     p{
         margin-top: 50px;
@@ -403,8 +411,14 @@ footer .liste{
 
 }
 .apropos .apropos_group{
-    margin-top: 20px;
-    padding: 20px;
+    max-width:800px;
+    margin: 100px;
+    padding: 40px;
+}
+.apropos .condition_group{
+    max-width:800px;
+    margin: 100px;
+    padding: 40px;
 }
 /* page view uniquement */
 
