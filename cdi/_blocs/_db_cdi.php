@@ -13,7 +13,7 @@
     // $servername = "82.163.176.123";
     // $username = "ludovicl_V";
     // $password = "Via&Best5566&";
-    // $dbname = "ludovicl_planning";
+    // $dbname = "ludovicl_cdi";
     // $host='mysql:host='.$servername.';dbname='.$dbname;
 
     try{
