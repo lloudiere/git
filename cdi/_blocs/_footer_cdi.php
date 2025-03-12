@@ -29,5 +29,7 @@
     </footer>
 </body>
     <!--<script src="_scripts/menu.js"></script>-->
+    <script src="./_scripts/js.js"></script>
+
     <!-- v06mars -->
 </html>

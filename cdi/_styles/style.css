@@ -451,7 +451,7 @@ footer .reseau .fa-brands:hover, .politique:hover ,.mentions:hover{
 
 body .entete_contact{
 
-    background-image: url(../_imgs/golf_1.jpg);
+    background-image: url(../_imgs/IMG_0946.JPG);
     background-position: bottom right; /* Place l'image en bas à droite */
     background-repeat: no-repeat; /* Évite la répétition */
     background-size: cover; /* Garde la taille d'origine ou ajuste selon les besoins */
@@ -531,7 +531,7 @@ body .contact_form .contact_formulaire .form_saisie{
         align-content: space-between;
         flex-direction: column;
         width: 100%;
-        height: 300px;
+        height: 450px;
 }
 
 body .contact_form .contact_formulaire .form_saisie .adresse{
@@ -549,24 +549,53 @@ body .contact_form .contact_formulaire .form_saisie .adresse{
             width: 100%;
             height: 50px;
             border: 2px solid var(--cdiNoir);
+            font-size: 1.4em;
+            color: var(--cdiNoir);
+            padding: 10px;
+            
+        }
+        input::placeholder{
+            font-size: 1.1em;
+            color: var(--cdiNoir);
+            padding: 10px;
+            opacity: 0.5;
             
         }
 
 
-
-
-
-
-}
+    }
+ 
 body .contact_form .contact_formulaire .form_saisie label{
     margin-top: 5px;
 }
 
 body .contact_form .contact_formulaire .form_saisie textarea{
     width: 100%;
+    height: 100px;
     margin-top: 5px;
-    padding: 50px;
+    padding: 10px;
   
-    font-size: 1.2em;
+    font-size: 1.8em;
 
 }
+.form_saisie textarea::placeholder{
+
+    color: var(--cdiNoir);
+    padding: 10px;
+    opacity: 0.5;
+}
+
+
+.contact_presentation_bouton {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border: 2px solid var(--cdiBlanc);
+    color: var(--cdiBlanc);
+    background-color: var(--cdiRouge);
+    align-self:center;
+}
+.confirmation-message{ 
+      
+    visibility: hidden;
+  }
