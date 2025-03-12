@@ -80,7 +80,7 @@ body{
 
 body .entete{
 
-    background-image: url(../_imgs/golf_1.jpg);
+    background-image: url(../_imgs/IMG_0906.JPG);
     background-position: bottom right; /* Place l'image en bas à droite */
     background-repeat: no-repeat; /* Évite la répétition */
     background-size: cover; /* Garde la taille d'origine ou ajuste selon les besoins */
@@ -194,7 +194,7 @@ body .entete h3{
     gap: 50px;
 }
 .bloc_competition .bloc_image{
-    background-image: url('../_imgs/golf_3.jpg');
+    background-image: url('../_imgs/IMG_0894-1.JPG');
     background-size: cover;
     background-position: center center; /* Place l'image en bas à droite */
     background-repeat: no-repeat; /* Évite la répétition */
@@ -354,9 +354,9 @@ button:hover {
 /* Css pour la section parcours */
 
 .parcours{
-    background-image: url('../_imgs/golf_7.jpg');
+    background-image: url('../_imgs/IMG_0960.JPG');
     background-size: cover; 
-    background-position: center; 
+    background-position: bottom; 
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
