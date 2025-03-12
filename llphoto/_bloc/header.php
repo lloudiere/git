@@ -7,6 +7,7 @@
             <a href="apropos.php">A PROPOS</a>
             <a href="contact.php">CONTACT</a>
             <a href="blog.php">BLOG</a>
+            <a href="services.php">RESERVER UNE SEANCE</a>
 
         </nav>
 

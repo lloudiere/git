@@ -1,0 +1,66 @@
+<?php 
+
+    require './_bloc/entete.php';
+    require './_bloc/header.php';
+
+
+?>
+    
+    <div class="services_cdi" style="width: 100%; display: flex; flex-direction: column; background-color: white; color: black; gap: 20px; padding: 10px; justify-content: center; align-items: center;">
+        <h1>Nos services</h1>
+        <div class="service_bloc">
+                <div class="service_photo">
+                    <img src="./_imgs//marianne.jpg" alt="">
+                </div>
+                <div class="service_info">
+                    <h2>MODE</h2>
+                    <h3>2h</h3>
+                    <h3>NOUS CONTACTER</h3>
+                    <a href="reserver.php?service=mode">RESERVER</a>
+
+                </div>
+        </div>
+        <div class="service_bloc">
+                <div class="service_photo">
+                    <img src="./_imgs/pieds.jpg" alt="">
+                </div>
+                <div class="service_info">
+                    <h2>GROSSESSE</h2>
+                    <h3>2h</h3>
+                    <h3>NOUS CONTACTER</h3>
+                    <a href="reserver.php?service=grossesse">RESERVER</a>
+
+                </div>
+        </div>
+        <div class="service_bloc">
+                <div class="service_photo">
+                    <img src="./_imgs/art/7518815648_IMG_1027.jpg" alt="">
+                </div>
+                <div class="service_info">
+                    <h2>REPORTAGE</h2>
+                    <h3>2h</h3>
+                    <h3>NOUS CONTACTER</h3>
+                    <a href="reserver.php?service=reportage">RESERVER</a>
+
+                </div>
+        </div>
+        <div class="service_bloc">
+                <div class="service_photo">
+                    <img src="./_imgs/portrait/IMG_4706.JPG" alt="">
+                </div>
+                <div class="service_info">
+                    <h2>PORTRAIT</h2>
+                    <h3>2h</h3>
+                    <h3>NOUS CONTACTER</h3>
+                    <a href="reserver.php?service=portrait">RESERVER</a>
+
+                </div>
+        </div>
+
+
+    </div>
+    
+<?php 
+
+    require './_bloc/footer.php';
+?>

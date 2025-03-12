@@ -449,3 +449,69 @@ footer .liste{
 };
 
 
+body .services_cdi{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+ 
+
+
+} 
+    
+
+.service_cdi h1{
+    font-size: 1.2em;
+}
+.services_cdi .service_bloc{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    border: 1px solid var(--rouge);
+    margin: 20px;
+    padding: 20px;
+
+}
+.services_cdi .service_bloc .service_photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+
+}
+.services_cdi .service_bloc .service_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 50px;
+    gap: 40px;
+    width: 50%;
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--blanc);
+        border: 1px solid var(--rouge);
+        background-color: var(--noir);
+        width: 140px;
+        height: 30px;;
+    }
+
+}
+.services_cdi .service_bloc .service_photo img{
+    height: 100%;
+    object-fit: fit;
+}
+
+
+.reservation{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    background-color: var(--blanc);
+    color: var(--noir);
+}
