@@ -25,10 +25,10 @@
                     <img src="./_imgs/pieds.jpg" alt="">
                 </div>
                 <div class="service_info">
-                    <h2>GROSSESSE</h2>
+                    <h2>EVENEMENT FAMILIAL</h2>
                     <h3>2h</h3>
                     <h3>NOUS CONTACTER</h3>
-                    <a href="reserver.php?service=grossesse">RESERVER</a>
+                    <a href="reserver.php?service=evenement">RESERVER</a>
 
                 </div>
         </div>
@@ -50,6 +50,30 @@
                 </div>
                 <div class="service_info">
                     <h2>PORTRAIT</h2>
+                    <h3>2h</h3>
+                    <h3>NOUS CONTACTER</h3>
+                    <a href="reserver.php?service=portrait">RESERVER</a>
+
+                </div>
+        </div>
+        <div class="service_bloc">
+                <div class="service_photo">
+                    <img src="./_imgs/portrait/IMG_4706.JPG" alt="">
+                </div>
+                <div class="service_info">
+                    <h2>VISITE GUIDEE</h2>
+                    <h3>2h</h3>
+                    <h3>NOUS CONTACTER</h3>
+                    <a href="reserver.php?service=portrait">RESERVER</a>
+
+                </div>
+        </div>
+        <div class="service_bloc">
+                <div class="service_photo">
+                    <img src="./_imgs/portrait/IMG_4706.JPG" alt="">
+                </div>
+                <div class="service_info">
+                    <h2>PHOTO D'IDENTITE</h2>
                     <h3>2h</h3>
                     <h3>NOUS CONTACTER</h3>
                     <a href="reserver.php?service=portrait">RESERVER</a>
