@@ -27,6 +27,7 @@
 body{
     color: var(--cdiRouge);
     width: 100vw;
+    border;
 }
 .head_cdi{
     display: flex;
@@ -532,6 +533,11 @@ body .contact_form .contact_formulaire .form_saisie{
         flex-direction: column;
         width: 100%;
         height: 450px;
+        
+        
+}
+body .contact_form .contact_formulaire .form_saisie textarea{
+    border: 2px solid var(--cdiNoir);
 }
 
 body .contact_form .contact_formulaire .form_saisie .adresse{

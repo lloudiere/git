@@ -18,6 +18,7 @@
         top: -30px;
 
     }
+    
 }
 
 @media only screen and (max-width:799px){
@@ -318,6 +319,60 @@
     
     }
 
+    body .entete_contact{
+        display: flex;
+        width: 100vw;
+        height: 200px;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 0;
+        img{
+            width: 100vw;
+        }
+    }
+    body .entete_contact .entete_contact_texte{
+        padding: 20px;
+    }
+    body .contact{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    body .contact .intro{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+    body .contact .form{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+    }
+    body .contact_form{
+        gap:0;
 
-
+    }
+    body .contact_form .contact_formulaire {
+        display: flex
+    ;
+        justify-content: space-between;
+        width: 100vw;
+        align-items: flex-start;
+        align-content: space-around;
+        flex-direction: column;
+        padding: 20px;
+    }
+    body .contact_form .contact_formulaire .form_saisie textarea {
+        border: 2px solid var(--cdiNoir);
+    }
 }
