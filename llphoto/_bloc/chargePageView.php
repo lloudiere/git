@@ -25,11 +25,11 @@
             $maxi=count($files);
         
             if($maxi==0){
-                header("location:index.php");
+                header("location:home.php");
             }
         }
     }else{
-            header("location:index.php");
+            header("location:home.php");
         
     }
     if($id==0){$id=1;}

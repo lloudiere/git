@@ -8,7 +8,7 @@
         $service=$_GET['service'];
      
         
-        if($service!='portrait' && $service!='reportage'&& $service!='grossesse'&&$service!='mode'){
+        if($service!='portrait' && $service!='reportage'&& $service!='evenement'&&$service!='mode'){
             echo "<script language='javascript'>
             document.location.replace('services.php')
             </script>";
@@ -26,6 +26,24 @@
         <h1>RESERVATION</h1>
             <h1><?php echo $service;?></h1>
                         
+            </div>
+        </div>
+
+
+
+
+
+        <div class="reservation_bloc">
+            <div class="calendrier">
+                <div class="mois">
+                    <span>Gauche</span>
+                    <p>Mars 2025</p>
+                    <span>Droite</span>
+                    <div class="jour">lun. mar.mer. jeu. ven. sam. dim.</div>
+                    <div class="jour_bloc">
+                        <p></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
