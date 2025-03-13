@@ -27,7 +27,7 @@
 body{
     color: var(--cdiRouge);
     width: 100vw;
-    border;
+ 
 }
 .head_cdi{
     display: flex;
@@ -102,9 +102,12 @@ body .entete{
 }
 body .entete h2{
     color: white;
+    font-size: 4.2em;
 }
 body .entete h3{
     color: white;
+    font-size: 1.7em;
+
 }
 .entete_texte{
     display: flex
@@ -605,3 +608,143 @@ body .contact_form .contact_formulaire .form_saisie textarea{
       
     visibility: hidden;
   }
+
+.plan, .trou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+    width: 100vw;
+    padding: 50px;
+
+}
+.plan h1, .trou h1{
+    width: 60vw;
+    text-align: center;
+
+}
+
+
+.plan .description, .trou .description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.plan .plan_photo, .trou .trou_photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+    width: 100%;
+
+}
+
+
+.plan_photo .photo, .trou .photo{
+    display: flex;
+    justify-content: center;
+    width: 60vw;
+
+}
+.plan_photo .photo img, .trou .photo img{
+    width: 100%;
+
+}
+
+.bloc_trou_18{
+    background-image: url('../_imgs/IMG_0946.JPG');
+    background-position: bottom right; /* Place l'image en bas à droite */
+    background-repeat: no-repeat; /* Évite la répétition */
+    background-size: cover; /* Garde la taille d'origine ou ajuste selon les besoins */
+    
+   z-index: 0;
+
+}
+
+.trou_18{
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid var(--cdiNoir);
+    h1, h3{
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
+
+.bloc_trou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--cdiNoir);
+    width: 150px;
+    height: 150px;
+    background-color:transparent;
+    color: var(--cdiBlanc);
+
+}
+.bloc_trou:hover{
+    
+    background-color: var(--cdiMarron);
+    color: var(--cdiRouge);
+}
+
+.parcours_trou_photo{
+    display: flex
+;
+    flex-direction: row;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+.parcours_trou_photo .caracteristique,
+.parcours_trou_photo .photo,
+.parcours_trou_photo .description
+{
+    display: flex
+    ;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: space-around;
+        width: 30vw;
+        align-items: center;
+
+}
+.caracteristique h2{
+    font-size: 1.em;
+    justify-content: center;
+    width: 100%;
+}
+
+.gros_chiffre{
+    position: absolute;
+    color: var(--cdiRouge);
+    font-size: 12em;
+    z-index: 199;
+    top: 43%;
+    width: 300px;
+    height: 300px;
+    /* align-items: center; */
+    flex-direction: column;
+    left: 0;
+    text-shadow: 3px 3px 3px  var(--cdiMarron);
+    text-align: center;
+    border-radius: 50%;
+    
+
+    
+
+
+}
