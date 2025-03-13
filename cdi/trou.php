@@ -63,10 +63,19 @@
         
             <h2>Caractéristique du trou <?= $trou?></h2>
 
-            
-                    <p>282</p>
-                    <p>282</p>
-                    <p>269</ptr>
+            <div class="table_par">
+                <div class="table_par1">
+                    <p>PAR 4 </p>
+                    <p>HCP 7 </p>
+                </div>
+                
+                    <div class="table_par2">
+                        <p><span><i class="fa-solid blanc fa-circle"></i></span> 282 <span><i class="fa-solid jaune fa-circle"></i></span> 225 <span> <i class="fa-solid bleu fa-circle"></i></span> 282 </p>
+                        <p><span><i class="fa-solid rouge fa-circle"></i></span> 300</p>
+                        
+                    </div>
+                
+            </div>
             
 
             </table>

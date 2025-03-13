@@ -3,6 +3,7 @@
 
 
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,11 +19,24 @@
   .cdiMarron{color: var(--cdiMarron);};
   .cdiNoir{color: var(--cdiNoir);};
   .cdiBlanc{color: var(--cdiBlanc);}
+  
 
 
 }
 
-
+.blanc{
+    color: var(--cdiBlanc);
+   
+}
+.rouge{
+        color: var(--cdiRouge);
+}
+.bleu{
+    color: rgb(67, 139, 233);
+}
+.jaune{
+    color: yellow;
+}
 
 body{
     color: var(--cdiRouge);
@@ -742,9 +756,47 @@ body .contact_form .contact_formulaire .form_saisie textarea{
     text-shadow: 3px 3px 3px  var(--cdiMarron);
     text-align: center;
     border-radius: 50%;
-    
 
+}
+
+.table_par{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.table_par .table_par1{
+    background-color: var(--cdiRouge);
+    color: var(--cdiBlanc);
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 30%;
+    gap: 10px;
     
 
 
 }
+
+
+.table_par .table_par2{
+    background-color: var(--cdiMarron);
+    color: var(--cdiBlanc);
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 70%;
+    gap: 10px;
+    span{
+        padding-right: 10px;
+    }
+
+}
+
