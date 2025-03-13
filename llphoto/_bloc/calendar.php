@@ -1,44 +1,27 @@
-<?php 
 
-    require './_bloc/entete.php';
-    require './_bloc/header.php';
+<?php
     include './_classes/Month.php';
 
   
-    include './_bloc/controlDate.php';
-
-    if($_GET['service']){
-
-        $service=$_GET['service'];
-     
-        
-        if($service!='portrait' && $service!='reportage'&& $service!='evenement'&&$service!='mode'){
-            echo "<script language='javascript'>
-            document.location.replace('services.php')
-            </script>";
-        }
-
-}else{
-  
-}
-    
-
+    include './controlDate.php'
 ?>
-    
-     
-    <div class="reservetion">    
-        <h1>RESERVATION</h1>
-            <h1><?php echo $service;?></h1>
-                        
-            </div>
-        </div>
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="calandar.css">
+    <title>calendrier</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary b-3">
+        <a class ="navbar-brand" href="index.php">Calendrier</a>
+    </nav>
+    <!-- Récupère la date du jour si null -->
 
-
-
-
-        <div class="reservation_bloc">
-        <div class="cal">
+    <div class="cal">
         <h1><?php echo $month->toString();?></h1>
         <div class="fleche">
             <a href="<?=$precedent?>">Précédent</a>
@@ -76,11 +59,5 @@
             <p>Date choisi : <?= $d?></p>
         </div>
     </div>
-        </div>
-    </div>
-
-    
-<?php 
-
-    require './_bloc/footer.php';
-?>
+</body>
+</html>
