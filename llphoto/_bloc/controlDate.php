@@ -2,7 +2,7 @@
 
     $d="";
     $month = new Month($_GET['month']??null,$_GET['year']??null);
-    $retour="index.php?";
+    $retour="reserver.php?";
     if (isset($_GET['month'])){
         $retour=$retour.'&month='.$_GET['month'];
 

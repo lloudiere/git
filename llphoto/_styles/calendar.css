@@ -1,6 +1,7 @@
 .calendar_table{
     width: 30%;
     height: calc(100vh-100px);
+    background-color: var(--blanc);
 }
 
 .calendar_table td{
@@ -30,6 +31,7 @@
     justify-content: space-between;
     padding: 10px;
     width: 100vw;
+    background-color: white;
 }
 .calendar_day{
 

@@ -31,7 +31,7 @@
             <h1><?php echo $service;?></h1>
                         
             </div>
-        </div>
+    </div>
 
 
 
