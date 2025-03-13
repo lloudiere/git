@@ -2,10 +2,11 @@
 <!-- head_cdi -->
 <div class="head_cdi">
         <div class="head_cdi_logo">
-            <img src="_imgs/CDI250.png" alt="">
+        <a href="index.php"><img src="_imgs/CDI250.png" alt=""><</a>
             <div class="titre_cdi">
-                <h2>Côte des Isles</h2>
-                <h3>Barnevile-Carteret</h3>
+            <a href="index.php"><h2>Côte des Isles</h2></a>
+            <a href="index.php"><h3>Barnevile-Carteret</h3></a>
+                
             </div>
         </div>
 <!-- nav -->

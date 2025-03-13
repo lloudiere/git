@@ -6,10 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    A{
+    a{
+    
         text-decoration:none;
         color: white;
     }
+    
 }
 
 :root{
@@ -515,3 +517,5 @@ body .services_cdi{
     background-color: var(--blanc);
     color: var(--noir);
 }
+
+
