@@ -1,6 +1,8 @@
 <?php
 
     $d="";
+    $h="";
+
     $month = new Month($_GET['month']??null,$_GET['year']??null);
     $retour="reserver.php?";
     if (isset($_GET['month'])){
@@ -11,6 +13,11 @@
         $retour=$retour.'&year='.$_GET['year'];
         
     }
+    if(isset($_GET['heure'])){
+        $h=$_GET['heure'];
+    }
+    
+
     if(isset($_GET['date'])){
         $dateChoisie=new datetime($_GET['date']);
         $d=$dateChoisie->format('d-M-Y');

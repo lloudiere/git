@@ -33,6 +33,37 @@
     width: 100vw;
     background-color: white;
 }
+.affiche_calendrier{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: black;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.info_heure{
+    display: flex;
+    flex-direction: row;
+    width:60%;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 20px;
+}
+.heure1 p, .heure2 p{
+    border: 2px solid var(--rouge);
+    border-radius: 10px;
+    margin:10px;
+    height: 40px;
+    width: 100px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+        a{
+            color: black;
+        }
+}
 .calendar_day{
 
     display: flex;
@@ -73,4 +104,9 @@
         color: red;
 
     }
+}
+.info_heure .demande{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }

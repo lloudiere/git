@@ -12,7 +12,14 @@
         $service=$_GET['service'];
      
         
-        if($service!='portrait' && $service!='reportage'&& $service!='evenement'&&$service!='mode'){
+        if($service!='portrait' && 
+            $service!='reportage' && 
+            $service!='evenement' &&
+            $service!='mode' &&
+            $service!='visite' &&
+            $service!='identite' 
+            
+            ){
             echo "<script language='javascript'>
             document.location.replace('services.php')
             </script>";
@@ -26,9 +33,9 @@
 ?>
     
      
-    <div class="reservetion">    
+    <div class="reservation">    
         <h1>RESERVATION</h1>
-            <h1><?php echo $service;?></h1>
+        <h2><?= strtoupper($service);?></h1>
                         
             </div>
     </div>
@@ -44,36 +51,54 @@
             <a href="<?=$precedent?>">Précédent</a>
             <a href="<?=$suivant?>">Suivant</a>
         </div>
-        <table class="calendar_table calendar_table_<?= $month->getWeeks();?>weeks">
-            <tr>
-                <?php foreach ($month->daysName as $day): ?>
-                    <th class="days"><?= $day; ?></th>
-                <?php endforeach; ?>
-            </tr>
-            <?php for ($i = 0; $i < $month->getWeeks()+2; $i++): ?>
+        <div class="affiche_calendrier">
+            <table class="calendar_table calendar_table_<?= $month->getWeeks();?>weeks">
                 <tr>
-                    <?php for ($k = 0; $k < 7; $k++):?>
-                        <td>
-                            
-                            <div class="calendar_day">
-                                <?php
-                                $date = (clone $start)->modify("+" . ($k + $i * 7) . " days");
-                                if ($date->format('m') == $month->month) {
-                                    echo $date->format('d');
-                                } else {
-                                    echo "<span class='calendar_gris'>" . $date->format('d') . "</span>";
-                                }
-                                ?>
-                                <a href="<?= $retour.'&date='.$date->format('Y-m-d');?>">@</a>
-                                
-                            </div>
-                        </td>
-                    <?php endfor; ?>
+                    <?php foreach ($month->daysName as $day): ?>
+                        <th class="days"><?= $day; ?></th>
+                    <?php endforeach; ?>
                 </tr>
-            <?php endfor; ?>
-        </table>
-       <div class="photo">
-            <p>Date choisi : <?= $d?></p>
+                <?php for ($i = 0; $i < $month->getWeeks()+2; $i++): ?>
+                    <tr>
+                        <?php for ($k = 0; $k < 7; $k++):?>
+                            <td>
+                                
+                                <div class="calendar_day">
+                                    <?php
+                                    $date = (clone $start)->modify("+" . ($k + $i * 7) . " days");
+                                    if ($date->format('m') == $month->month) {
+                                        echo $date->format('d');
+                                    } else {
+                                        echo "<span class='calendar_gris'>" . $date->format('d') . "</span>";
+                                    }
+                                    ?>
+                                    <a href="<?= $retour.'&service='.$service.'&date='.$date->format('Y-m-d');?>">@</a>
+                                    
+                                </div>
+                            </td>
+                        <?php endfor; ?>
+                    </tr>
+                <?php endfor; ?>
+            </table>
+        <div class="info_heure">
+            <div class="heure1">
+           
+                <p><a href=" <?= $retour.'heure=08:00-10:00'.'&service='.$service.'&date='.$_GET['date'];?>">08:00-10:00</p></a>
+                <p><a href=" <?= $retour.'heure=09:00-12:00'.'&service='.$service.'&date='.$_GET['date'];?>">00:00-12:00</p></a>
+               
+                
+            </div>
+            <div class="heure2">
+                <p><a href=" <?= $retour.'heure=14:00-16:00'.'&service='.$service.'&date='.$_GET['date'];?>">14:00-16:00</p></a>
+                <p><a href=" <?= $retour.'heure=16:00-18:00'.'&service='.$service.'&date='.$_GET['date'];?>">16:00-18:00</p></a>
+                <p><a href=" <?= $retour.'heure=18:00-20:00'.'&service='.$service.'&date='.$_GET['date'];?>">18:00-20:00</p></a>
+                
+            </div>
+            <div class="demande">
+                <p>Date choisie  : <?= $d?></p>
+                <p>Heure choisie : <?= $h?></p>
+            </div>
+            </div>
         </div>
     </div>
         </div>
