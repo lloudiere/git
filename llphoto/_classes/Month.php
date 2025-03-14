@@ -2,11 +2,12 @@
     class Month {
         public int $month;
         public int $year;
+        public int $jour;
 
         public $months =['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
         public $daysName = ['Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'];
        
-        public function __construct(int $month = null, int $year = null)
+        public function __construct(int $month = null, int $year = null,$jour = null)
         {
             // Si les valeurs ne sont pas fournies, on prend les valeurs par défaut
             if ($month === null) {
@@ -15,6 +16,10 @@
             if ($year === null) {
                 $year = (int) date('Y'); // Année actuelle
             }
+            if ($jour === null) {
+                $jour = (int) date('d'); // Année actuelle
+            }
+
 
             // Vérification des limites
             if ($month < 1 || $month > 12) {
@@ -23,9 +28,14 @@
 
             $this->month = $month;
             $this->year = $year;
+            $this->jour = $jour;
         }
         public function getStartingDay() : DateTime {
             return new \DateTime("{$this->year}-{$this->month}-1");
+            
+        }
+        public function getDate() : DateTime {
+            return new \DateTime("{$this->year}-{$this->month}-{$this->jour}");
             
         }
         //retourne le mois en toutes lettres

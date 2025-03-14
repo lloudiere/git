@@ -48,8 +48,17 @@
         <div class="cal">
         <h1><?php echo $month->toString();?></h1>
         <div class="fleche">
-            <a href="<?=$precedent?>">Précédent</a>
-            <a href="<?=$suivant?>">Suivant</a>
+            <div class="precedent">
+                <a href="reserver.php?service=<?php echo $service;?>&date=<?php echo $h;?>&heure=<?php echo $h;?>&month=<?php echo ($month->month)-1;?>">
+                    <i class='a-solid fa-square-caret-left'></i>
+                </a>
+            </div>
+            <div class="suivant">
+                <a href="reserver.php?service=<?php echo $service;?>&date=<?php echo $h;?>&heure=<?php echo $h;?>&month=<?php echo ($month->month)+1;?>">
+                    <i class='a-solid fa-square-caret-left'></i>
+                </a>
+            </div>
+        
         </div>
         <div class="affiche_calendrier">
             <table class="calendar_table calendar_table_<?= $month->getWeeks();?>weeks">

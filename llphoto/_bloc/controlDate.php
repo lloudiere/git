@@ -16,7 +16,7 @@
     if(isset($_GET['heure'])){
         $h=$_GET['heure'];
     }
-    
+
 
     if(isset($_GET['date'])){
         $dateChoisie=new datetime($_GET['date']);
@@ -27,8 +27,13 @@
         // var_dump($m);
         // $month= new Month($m,$a);
 
+    }else{
+        $dateChoisie=$month->getdate();
+        $d=$month->getdate();
+
     }
     $month = new Month($_GET['month']??null,$_GET['year']??null);
+    
     $start=$month->getStartingDay()->modify('last monday');
     $precedent='index.php';
     $suivant='index.php';
