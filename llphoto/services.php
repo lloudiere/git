@@ -34,7 +34,7 @@
         </div>
         <div class="service_bloc">
                 <div class="service_photo">
-                    <img src="./_imgs/art/7518815648_IMG_1027.jpg" alt="">
+                    <img src="./_imgs/reportage.jpg" alt="">
                 </div>
                 <div class="service_info">
                     <h2>REPORTAGE</h2>
@@ -58,7 +58,7 @@
         </div>
         <div class="service_bloc">
                 <div class="service_photo">
-                    <img src="./_imgs/portrait/IMG_4706.JPG" alt="">
+                    <img src="./_imgs/visite.JPG" alt="">
                 </div>
                 <div class="service_info">
                     <h2>VISITE GUIDEE</h2>
@@ -70,7 +70,7 @@
         </div>
         <div class="service_bloc">
                 <div class="service_photo">
-                    <img src="./_imgs/portrait/IMG_4706.JPG" alt="">
+                    <img src="./_imgs/identite.jpg" alt="">
                 </div>
                 <div class="service_info">
                     <h2>PHOTO D'IDENTITE</h2>
