@@ -16,7 +16,7 @@
                     <h2>MODE</h2>
                     <h3>2h</h3>
                     <h3>NOUS CONTACTER</h3>
-                    <a href="reserver.php?service=mode">RESERVER</a>
+                    <a href="reserver.php?date=&service=mode">RESERVER</a>
 
                 </div>
         </div>
@@ -28,7 +28,7 @@
                     <h2>EVENEMENT FAMILIAL</h2>
                     <h3>2h</h3>
                     <h3>NOUS CONTACTER</h3>
-                    <a href="reserver.php?service=evenement">RESERVER</a>
+                    <a href="reserver.php?date=&service=evenement">RESERVER</a>
 
                 </div>
         </div>
@@ -40,7 +40,7 @@
                     <h2>REPORTAGE</h2>
                     <h3>2h</h3>
                     <h3>NOUS CONTACTER</h3>
-                    <a href="reserver.php?service=reportage">RESERVER</a>
+                    <a href="reserver.php?date=&service=reportage">RESERVER</a>
 
                 </div>
         </div>
@@ -52,7 +52,7 @@
                     <h2>PORTRAIT</h2>
                     <h3>2h</h3>
                     <h3>NOUS CONTACTER</h3>
-                    <a href="reserver.php?service=portrait">RESERVER</a>
+                    <a href="reserver.php?date=&service=portrait">RESERVER</a>
 
                 </div>
         </div>
@@ -64,7 +64,7 @@
                     <h2>VISITE GUIDEE</h2>
                     <h3>2h</h3>
                     <h3>NOUS CONTACTER</h3>
-                    <a href="reserver.php?service=visite">RESERVER</a>
+                    <a href="reserver.php?date=&service=visite">RESERVER</a>
 
                 </div>
         </div>
@@ -76,7 +76,7 @@
                     <h2>PHOTO D'IDENTITE</h2>
                     <h3>2h</h3>
                     <h3>NOUS CONTACTER</h3>
-                    <a href="reserver.php?service=identite">RESERVER</a>
+                    <a href="reserver.php?date=&service=identite">RESERVER</a>
 
                 </div>
         </div>

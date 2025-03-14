@@ -48,16 +48,16 @@
         <div class="cal">
         <h1><?php echo $month->toString();?></h1>
         <div class="fleche">
-            <div class="precedent">
+           
                 <a href="reserver.php?service=<?php echo $service;?>&date=<?php echo $h;?>&heure=<?php echo $h;?>&month=<?php echo ($month->month)-1;?>">
-                    <i class='a-solid fa-square-caret-left'></i>
+                    <i class='fa-solid fa-square-caret-left'></i>
                 </a>
-            </div>
-            <div class="suivant">
+         
+     
                 <a href="reserver.php?service=<?php echo $service;?>&date=<?php echo $h;?>&heure=<?php echo $h;?>&month=<?php echo ($month->month)+1;?>">
-                    <i class='a-solid fa-square-caret-left'></i>
+                    <i class='fa-solid fa-square-caret-right'></i>
                 </a>
-            </div>
+            
         
         </div>
         <div class="affiche_calendrier">
@@ -92,15 +92,15 @@
         <div class="info_heure">
             <div class="heure1">
            
-                <p><a href=" <?= $retour.'heure=08:00-10:00'.'&service='.$service.'&date='.$_GET['date'];?>">08:00-10:00</p></a>
-                <p><a href=" <?= $retour.'heure=09:00-12:00'.'&service='.$service.'&date='.$_GET['date'];?>">00:00-12:00</p></a>
+                <p><a href=" <?= $retour.'&heure=08:00-10:00'.'&service='.$service.'&date='.$_GET['date'];?>">08:00-10:00</p></a>
+                <p><a href=" <?= $retour.'&heure=09:00-12:00'.'&service='.$service.'&date='.$_GET['date'];?>">00:00-12:00</p></a>
                
                 
             </div>
             <div class="heure2">
-                <p><a href=" <?= $retour.'heure=14:00-16:00'.'&service='.$service.'&date='.$_GET['date'];?>">14:00-16:00</p></a>
-                <p><a href=" <?= $retour.'heure=16:00-18:00'.'&service='.$service.'&date='.$_GET['date'];?>">16:00-18:00</p></a>
-                <p><a href=" <?= $retour.'heure=18:00-20:00'.'&service='.$service.'&date='.$_GET['date'];?>">18:00-20:00</p></a>
+                <p><a href=" <?= $retour.'&heure=14:00-16:00'.'&service='.$service.'&date='.$_GET['date'];?>">14:00-16:00</p></a>
+                <p><a href=" <?= $retour.'&heure=16:00-18:00'.'&service='.$service.'&date='.$_GET['date'];?>">16:00-18:00</p></a>
+                <p><a href=" <?= $retour.'&heure=18:00-20:00'.'&service='.$service.'&date='.$_GET['date'];?>">18:00-20:00</p></a>
                 
             </div>
             <div class="demande">

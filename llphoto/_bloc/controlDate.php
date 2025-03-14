@@ -2,8 +2,22 @@
 
     $d="";
     $h="";
-
+    if (isset($_GET['month'])) {
+        $month = (int)$_GET['month']; // Convertir en entier pour éviter les erreurs
+    
+        // Vérifier et corriger les valeurs hors de la plage 1-12
+        if ($month < 1) {
+            $month = 12;
+        } elseif ($month > 12) {
+            $month = 1;
+        }
+    
+        // Mise à jour de $_GET['month'] après correction
+        $_GET['month'] = $month;
+    }
+    
     $month = new Month($_GET['month']??null,$_GET['year']??null);
+ 
     $retour="reserver.php?";
     if (isset($_GET['month'])){
         $retour=$retour.'&month='.$_GET['month'];

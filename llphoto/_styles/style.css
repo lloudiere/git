@@ -54,22 +54,9 @@ body .view_bouton{
 
     
 
-    .precedent,.suivant{
-        
-        width: 20px;
-        font-size: 2em;
-        
+    
 
-        .fa-solid{
-            width: 20px;
-            font-size:1.5em;
-            justify-content: center;
-            color: var(--rouge);
-           
-            
-        }
-
-    }
+    
 }
 
 
