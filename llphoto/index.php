@@ -13,7 +13,8 @@
                     <h3 class="rouge">PHOTOGRAPHE</h3>
                 </div>
                 <div class="info_nom">
-                    <H4>JE VALIDE VOS SOUVENIRS</H4>
+               
+                    <a href="./services.php" class="rouge">RESERVER UNE SEANCE</a>
                 </div>
     </div>
 
