@@ -58,7 +58,7 @@
         </div>
         <div class="service_bloc">
                 <div class="service_photo">
-                    <img src="./_imgs/visite.JPG" alt="">
+                    <img src="./_imgs/visite.jpg" alt="">
                 </div>
                 <div class="service_info">
                     <h2>VISITE GUIDEE</h2>
